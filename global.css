@@ -1,0 +1,29 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+@theme {
+  /* Main app colors */
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+
+  /* Component backgrounds */
+  --color-card: #1c1c1e;
+  --color-muted: #2c2c2e;
+
+  /* Typography and Icons */
+  --color-muted-foreground: #8e8e93;
+
+  /* Active states and accents */
+  --color-primary: #ffffff;
+  --color-primary-foreground: #000000;
+  --color-accent: #ea7a53;
+  --color-border: rgba(255, 255, 255, 0.1);
+
+  /* Progress Grid Colors */
+  --color-success: #5ebc67;
+  --color-destructive: #e55e5e;
+  --color-subscription: #8fd1bd;
+}
